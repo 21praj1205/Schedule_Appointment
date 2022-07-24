@@ -322,7 +322,7 @@ body {
   .bottomDiv {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -332,11 +332,11 @@ body {
     display: -ms-grid;
     display: grid;
     margin: auto;
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(2, 1fr);
   }
   .footer {
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -353,11 +353,11 @@ body {
     display: -ms-grid;
     display: grid;
     margin: auto;
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(3, 1fr);
   }
   .footer {
-    -ms-grid-columns: (1fr)[3];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(3, 1fr);
   }
   .navList {
@@ -397,7 +397,7 @@ body {
     padding: 2rem 0;
   }
   .bottomDiv {
-    -ms-grid-columns: (1fr)[5];
+    -ms-grid-columns: (1fr);
         grid-template-columns: repeat(5, 1fr);
   }
   .content .subTitle {
